@@ -1,12 +1,5 @@
-# Functions go here...
-def yes_no(question):...
+import random 
 
-
-def instructions():
-  print("*** How to Play ***")
-  print()
-  print("The rules of the game go Here")
-  print()
-  return ""
-
-  # Main routine goes here 
+for item in range(0, 20):
+  number = random.randint(0 , 4)
+  print(number, end="\t")
